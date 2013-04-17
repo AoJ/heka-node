@@ -23,6 +23,7 @@
     "devDependencies": {
         "jasmine-node": ">=1.0.13",
         "cef": "*",
+        "raven": "*",
         "horaa": ">=0.1.1alpha"
     },
     "scripts": {

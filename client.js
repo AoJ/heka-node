@@ -19,7 +19,7 @@ var config = require('./config');
 var env_version = '0.8';
 var os = require('os');
 var Senders = require('./senders/index');
-var Adapters = require('./adapters.js');
+var Adapters = require('./adapters/index');
 var _ = require('underscore');
 
 // Put a namespace around RFC 3164 syslog messages
