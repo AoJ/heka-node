@@ -19,6 +19,7 @@ var config = require('./config');
 var env_version = '0.8';
 var os = require('os');
 var Senders = require('./senders/index');
+var Adapters = require('./adapters.js');
 var _ = require('underscore');
 
 // Put a namespace around RFC 3164 syslog messages
@@ -226,3 +227,4 @@ exports.HekaClient = HekaClient;
 exports.clientFromJsonConfig = config.clientFromJsonConfig;
 exports.SEVERITY = SEVERITY;
 exports.Senders = Senders;
+exports.Adapters = Adapters;
